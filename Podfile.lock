@@ -23,26 +23,22 @@ PODS:
   - FLKAutoLayout (0.2.1)
   - ORStackView (3.0.1):
     - FLKAutoLayout (~> 0.2)
-  - SwiftyJSON (2.4.0)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.6)
-  - ORStackView (~> 3.0)
-  - SwiftyJSON (~> 2.3)
+  - AFNetworking
+  - ORStackView
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - FLKAutoLayout
     - ORStackView
-    - SwiftyJSON
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
   ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
-  SwiftyJSON: 96918c1bf505efa50c4f72957018dd3452090c9c
 
-PODFILE CHECKSUM: 960f513e546b470af8c5429616b2c2d70964dc73
+PODFILE CHECKSUM: a2d8eed08fcfdd6683203c6687195c16df407725
 
 COCOAPODS: 1.5.3

@@ -4,5 +4,4 @@ use_frameworks!
 target 'TravisCIDemo' do
   pod 'AFNetworking'
   pod 'ORStackView'
-  pod 'SwiftyJSON'
 end

@@ -1,0 +1,15 @@
+language: swift
+xcode_project: TravisCIDemo.xcodeproj # path to your xcodeproj folder
+xcode_scheme: TravisCIDemo
+xcode_destination: platform=iOS Simulator
+
+env:
+  # global:
+  #   - LANG=en_US.UTF-8
+  #   - LC_ALL=en_US.UTF-8
+  #   - XCODE_PROJECT=core/TravisCIDemo.xcodeproj
+  matrix:
+    - SCHEME="TravisCIDemo"
+
+before_install:
+  - pod install
